@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About | Funk Workshop</title>
+  <title>Funk Workshop</title>
   <link rel="stylesheet" href="bts/css/bootstrap.min.css">
    <link rel="stylesheet" href="fonts/boxicons.css" />
   <style>
@@ -26,6 +26,12 @@
       border-bottom: 1px solid var(--gold);
       color: var(--beige);
     }
+    .blck{
+      background-color: var(--black);
+    }
+    .logo-img{
+      width: 110px;
+    }
 
     .nav-link {
       color: var(--beige) !important;
@@ -45,11 +51,7 @@
 
     .hero img {
       width: 100%;
-      height: 800px;
       object-fit: cover;
-    }
-    .blck{
-      background-color: var(--black);
     }
 
     footer {
@@ -74,15 +76,24 @@
         justify-content: center !important;
         flex-wrap: wrap;
       }
+      .logo-img{
+      width: 70px;
+    }
+      .nav-link {
+      color: var(--beige) !important;
+      font-size: 14px;
+      font-weight: 400;
+      transition: color 0.3s ease;
+    }
     }
   </style>
 </head>
 <body>
 
-<header class="p-3 position-fixed top-0 start-0 w-100 text-center" style="z-index:1030;">
+<header class=" position-fixed top-0 start-0 w-100 text-center" style="z-index:1030;">
   <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-center ms-lg-4 ">
      <div class="me-lg-5 pe-lg-4">
-      <img src="images/pnggg.png" class="img-fluid  mb-2 mb-lg-0 me-lg-5 " width="110">
+      <img src="images/pnggg.png" class="img-fluid  mb-1 mb-lg-0 me-lg-5 logo-img" >
     </div>
     <ul class="nav mb-0 justify-content-center flex-wrap pt-lg-4">
       <li><a href="index.html" class="nav-link px-3 text-white">Home</a></li>
@@ -95,12 +106,11 @@
 </header>
 
 
-
-<div class="hero pt-5" style="background-color:#000; color:#f5f5dc;">
+<div class="hero " style="background-color:#000; color:#f5f5dc;">
   <div class="container py-5">
     <div class="row align-items-center my-5">
       <div class="col-md-6 mb-4 mb-md-0">
-        <h3 class="mb-4 pt-lg-0 pt-5" style="color:#d4af37; letter-spacing:1px;">WHAT'S THE STORY</h3>
+        <h3 class="mb-4 pt-lg-4 pt-2" style="color:#d4af37; letter-spacing:1px;">WHAT'S THE STORY</h3>
         <p style="line-height:1.8; font-size:15px; text-align:justify;">
           Funk Workshop has gained notoriety with his street performances throughout the world and his covers on YouTube that are soulful, “too sexy to handle,” often leaving audiences transfixed, viewers “falling in love,” and the comment section poppin’ off.
           <br><br>
@@ -146,8 +156,8 @@
   
 </div>
 
-  <div class="mb-2">
-    <img src="images/pnggg.png" class="img-fluid" width="200">
+  <div class="">
+    <img src="images/pnggg.png" class="img-fluid" width="70">
   </div>
   
 </footer>

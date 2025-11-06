@@ -110,15 +110,17 @@
 <div class="hero" style="background-color:#000; color:#f5f5dc;">
   <div class="container py-5">
     <div class="row align-items-center my-5">
+
       <!-- Image column (appears first on mobile) -->
-      <div class="col-12 col-md-6 text-center order-0 order-md-1 mb-md-0 mb-4">
+      <!-- <div class="col-12 col-md-6 text-center order-0 order-md-1 mb-md-0 mb-4">
         <div style="border:3px solid #d4af37; border-radius:10px; overflow:hidden; box-shadow:0 0 20px rgba(212,175,55,0.2);">
           <img src="images/singer.jpg" class="img-fluid" alt="Singer" style="width:100%; object-fit:cover;">
         </div>
-      </div>
+      </div> -->
+      
 
       <!-- Text column -->
-      <div class="col-12 col-md-6 mb-4 mb-md-0 order-1 order-md-0">
+      <div class="col-12 col-md-12 mb-4 mb-md-0 order-1 order-md-0">
         <h3 class="mb-4 pt-lg-4 pt-2" style="color:#d4af37; letter-spacing:1px;">WHAT'S THE STORY</h3>
         <p style="line-height:1.8; font-size:15px; text-align:justify;">
           Funk Workshop is known for his street performances and soulful YouTube covers that leave audiences mesmerized. His musical journey began at age four with piano and violin, later adding saxophone. Though his suburban Chicago home was his stage, he credits his drive to his single mom and humble beginnings. After studying at DePaul University, Justin moved to Santa Barbara with little more than a sax and fifty bucks. 
@@ -153,7 +155,12 @@
 
   <div class="mb-0">
     <img src="images/pnggg.png" class="img-fluid" width="70">
+  <p>&copy; <span id="year"></span> Funk Workshop. All rights reserved.</p>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
   </div>
+
   
 </footer>
 
